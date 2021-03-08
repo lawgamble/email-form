@@ -1,0 +1,86 @@
+
+main {
+  padding: 20px 0;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+main h1 {
+  margin: 0 10px;
+  border-bottom: 1px solid gray;
+  
+}
+
+main h2 {
+  font-family: Tahoma;
+  margin: 12px 10px;
+  border-bottom: 2px solid black;
+}
+
+
+
+
+
+
+
+/* Groups & Items  (Mobile First) */
+
+.group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+  margin: 10px;
+}
+
+/* ---  (Desktop) Groups & Items --- */
+
+@media all and (min-width: 800px) {
+  section {
+    padding: 0 10%;
+  }
+  .group {
+    flex-direction: row;
+  }
+}
+
+/* ---  Contact Form Design --- */
+
+form {
+  padding-right: 6px;
+}
+
+form input, 
+form textarea {
+  font-family: Tahoma;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  font-family: Tahoma;
+  height: 160px;
+}
+
+form button {
+    padding: 10px 16px;
+    border-radius: 5px;
+    border: 0;
+    font-family: Tahoma;
+    font-size: 16px;
+    background: #000;
+    color: #fff;
+    margin: 0 8px 10px 0;
+
+
+
